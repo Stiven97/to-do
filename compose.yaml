@@ -1,0 +1,9 @@
+services:
+  mysql:
+    image: "mysql:latest"
+    ports:
+      - "3306:3306"
+    environment:
+       MYSQL_DATABASE: todo
+       MYSQL_ROOT_PASSWORD: 81943301p
+
